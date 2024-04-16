@@ -1,0 +1,25 @@
+@mixin display() {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin font(){
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+@mixin button{
+            padding: 10px 25px;
+            border: 1px solid #0559f5f5;
+            background: transparent;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-left: 50px;
+            font-weight: 600;
+}
